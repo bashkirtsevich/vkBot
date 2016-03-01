@@ -1,11 +1,13 @@
 {
   "name": "vkbot",
-  "version": "0.0.4",
-  "description": "vkBot written in javascript and nodejs",
-  "main": "wrapper.js",
-  "directories": {
-    "example": "example"
+  "version": "1.0.0",
+  "description": "bot vk.com",
+  "main": "bot-vk.js",
+  "dependencies": {
+    "request": "^2.69.0",
+    "winston": "^2.1.1"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,20 +16,18 @@
     "url": "git+https://github.com/devlix1/vkBot.git"
   },
   "keywords": [
-    "vkbot",
     "bot",
-    "nodejs",
+    "vk",
+    "бот",
+    "вк",
     "вкбот",
-    "бот"
+    "диалоги",
+    "ответ"
   ],
   "author": "devlix",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/devlix1/vkBot/issues"
   },
-  "homepage": "https://github.com/devlix1/vkBot#readme",
-  "dependencies": {
-    "request": "^2.69.0"
-  },
-  "devDependencies": {}
+  "homepage": "https://github.com/devlix1/vkBot#readme"
 }
